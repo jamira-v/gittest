@@ -1,0 +1,92 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background: lightgrey;
+}
+
+h2, p, .readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+:hover {
+    font-weight: bolder;
+    color: firebrick;
+    cursor: pointer;
+
+} 
+
+.boxes {
+    margin: 60px;
+    padding: 30px 40px;
+    border: solid  rgba(48, 21, 21, 0.342) 20px;
+    border-radius: 30px;
+    width: 30em;
+    display: block;}
+
+
+
+
+#container {
+    background: rgba(214, 151, 162, 0.644);
+}
+#box1 {
+    background: rgba(69, 69, 163, 0.158);
+}
+#box2 {
+    background: rgba(158, 79, 158, 0.397);
+}
+#boxN {
+    background-color: rgba(148, 86, 146, 0.445);
+}
+.image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: powderblue;
+}
+.relative {
+    position: relative;
+    top: 4em;
+    left: 25em;
+}
+h1 {
+    color: salmon;
+}
+.original {
+    color: darkorange;
+}
+.additional {
+    color: sienna;
+}
+#rank1 {
+    color: maroon;
+}
+#rank2 {
+    color: olive;
+}
+#rank3 {
+    color: peru;
+}
+#rank4 {
+    color: teal;
+}
+#rank5 {
+    color: slategray;
+}
+ul {
+    color: green;
+}
+.star {
+    color: darkolivegreen;
+}
+#wars {
+    color: violet;
+}
+.unique {
+    border: solid black;
+    border-radius: 2px;
+}
